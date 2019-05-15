@@ -1,0 +1,35 @@
+.list-container {
+  flex: 1 0 auto;
+  margin-right: 20px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.list-container h1 {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.list-container h1:first-child {
+  margin-top: 10px;
+}
+
+.title {
+  margin: 20px;
+  text-align: center;
+}
+
+.strange-button {
+  position: fixed;
+  z-index: 10;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(170deg, rgba(144,37,252,1) 0%, rgba(19,8,254,1) 100%);
+  border-color: rgb(144,37,252);
+  height: 50px;
+  border-radius: 35px;
+  color: white;
+  width: 150px;
+  font-size: 16px;
+}

@@ -1,0 +1,17 @@
+.side-pagination {
+  height: calc(100vh - 10px);
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex: 0 0 20px;
+  font-size: 12px;
+  padding-top: 10px;
+  position: fixed;
+  right: 2px;
+}
+
+.item {
+  color: #AAB2B7;
+  cursor: pointer;
+}
